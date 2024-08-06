@@ -8,4 +8,6 @@
 |____[博弈论.pdf](博弈论.pdf)
 |____[计算几何 Part 3.pdf](计算几何 Part 3.pdf)
 |____[计算几何 Part 1.pdf](计算几何 Part 1.pdf)
-|____[计数.pdf](计数.pdf)
+|____[计数.pdf](计数.pdf) && [Training](https://www.luogu.com.cn/training/572697)
+
+
