@@ -1,4 +1,4 @@
-- [数论入门.pdf](数论入门.pdf)
+- [数论入门.pdf](数论入门.pdf) && [Training](https://www.luogu.com.cn/training/572727)
 - [单调性优化课件.pdf](单调性优化课件.pdf)
 - [计算几何Part2纯净版.pdf](计算几何Part2纯净版.pdf)
 - [网络流选讲.pdf](网络流选讲.pdf)
