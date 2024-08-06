@@ -1,3 +1,5 @@
+[![Page Views Count](https://badges.toozhao.com/badges/01J4B8QBE2VTNQ82K66N017CNH/green.svg)](https://badges.toozhao.com/stats/01J4B8QBE2VTNQ82K66N017CNH)
+
 # PPTs-in-OI
 
 You can also contribute some PPTs/PDFs to this repository.
