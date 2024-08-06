@@ -13,3 +13,5 @@ All PPTs&PDFs are sourced from the internet. If there is any infringement, pleas
 - And
 
 [![](https://contrib.rocks/image?repo=zjx-kimi/PPTs-in-OI)](https://github.com/zjx-kimi/PPTs-in-OI/graphs/contributors)
+
+kimi AK IOI
