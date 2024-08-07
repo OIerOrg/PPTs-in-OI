@@ -20,3 +20,7 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
 
 [![](https://contrib.rocks/image?repo=zjx-kimi/PPTs-in-OI)](https://github.com/zjx-kimi/PPTs-in-OI/graphs/contributors)
 
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI&type=Date)](https://star-history.com/#zjx-kimi/PPTs-in-OI&Date)
