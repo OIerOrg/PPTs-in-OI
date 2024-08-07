@@ -8,7 +8,9 @@ All PPTs&PDFs are sourced from the internet. If there is any infringement, pleas
 
 [JCSY 2023 Summer](JCSY%202023%20Summer)
 
- [JCSY 2024 Winter](JCSY%202024%20Winter) [JCSY 2024 Summer](JCSY%202024%20Summer)
+[JCSY 2024 Winter](JCSY%202024%20Winter) [JCSY 2024 Summer](JCSY%202024%20Summer)
+
+Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/OI)
 
 ## Thanks 
 - All PPTS / PDFS owners
