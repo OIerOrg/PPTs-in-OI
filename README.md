@@ -23,4 +23,10 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
 
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI&type=Date)](https://star-history.com/#zjx-kimi/PPTs-in-OI&Date)
+<a href="https://star-history.com/#zjx-kimi/PPTs-in-OI&Timeline">
+ <picture>
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI&type=Timeline&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI&type=Timeline" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI&type=Timeline" />
+ </picture>
+</a>
