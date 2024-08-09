@@ -21,12 +21,20 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
 [![](https://contrib.rocks/image?repo=zjx-kimi/PPTs-in-OI)](https://github.com/zjx-kimi/PPTs-in-OI/graphs/contributors)
 
 
+## Stargazers
+
+[![Stargazers repo roster for @zjx-kimi/PPTs-in-OI](http://reporoster.com/stars/zjx-kimi/PPTs-in-OI)](https://github.com/zjx-kimi/PPTs-in-OI/stargazers)
+
+## Forkers
+
+[![Forkers repo roster for @zjx-kimi/PPTs-in-OI](http://reporoster.com/forks/zjx-kimi/PPTs-in-OI)](https://github.com/zjx-kimi/PPTs-in-OI/network/members)
+
 ## Star History
 
 <a href="https://star-history.com/#zjx-kimi/PPTs-in-OI&Timeline">
  <picture>
-   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI&type=Timeline&theme=dark" />
-   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI&type=Timeline" />
-   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI&type=Timeline" />
+   <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI&theme=dark" />
+   <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI" />
+   <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI" />
  </picture>
 </a>
