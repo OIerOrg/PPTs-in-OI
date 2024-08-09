@@ -8,4 +8,4 @@
 - [网络流.pdf](网络流.pdf) && [Training](https://www.luogu.com.cn/training/572748)
 - [博弈论.pdf](博弈论.pdf) && [Training](https://www.luogu.com.cn/training/572681)
 - [计数.pdf](计数.pdf) && [Training](https://www.luogu.com.cn/training/571747)
-- [线段树.pdf](PPTs-in-OI/JCSY%202024%20Winter/线段树.pdf)
+- [线段树.pdf](线段树.pdf)
