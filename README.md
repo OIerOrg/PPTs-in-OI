@@ -18,7 +18,7 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
 - @zhouyuxuan1013 Provide training.
 - And
 
-[![](https://contrib.rocks/image?repo=zjx-kimi/PPTs-in-OI)](https://github.com/zjx-kimi/PPTs-in-OI/graphs/contributors)
+[![]()](https://github.com/zjx-kimi/PPTs-in-OI/graphs/contributors)
 
 
 ## Stargazers
