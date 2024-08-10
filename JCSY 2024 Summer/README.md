@@ -10,3 +10,4 @@
 - [计数.pdf](计数.pdf) && [Training](https://www.luogu.com.cn/training/571747)
 - [线段树.pdf](线段树.pdf) && [Training](https://www.luogu.com.cn/training/574049)
 - [线段树题目.pdf](线段树题目.pdf)
+- [分块.pptx](分块.pptx)
