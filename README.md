@@ -39,4 +39,4 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
  </picture>
 </a>
 
-<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=h_fdgfr0kGZAOLMwhnXD70OPnY8r8fOM&jump_from=webapi&authKey=CZlJGGv0QHWQWU7rJ1uO397C9l7QB+VabMMydwaD+w05xuw+V5gP81tTxRgIPuTu"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="CodeForces 比赛交流群" title="CodeForces 比赛交流群"></a>
+<a target="_blank" href="https://qm.qq.com/cgi-bin/qm/qr?k=h_fdgfr0kGZAOLMwhnXD70OPnY8r8fOM&jump_from=webapi&authKey=CZlJGGv0QHWQWU7rJ1uO397C9l7QB+VabMMydwaD+w05xuw+V5gP81tTxRgIPuTu"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="OI 学术交流群" title="OI 学术交流群"></a>
