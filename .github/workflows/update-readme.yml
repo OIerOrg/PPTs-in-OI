@@ -1,0 +1,35 @@
+name: Update README with Repo Size
+
+on:
+  schedule:
+    - cron: '* * * * *'  # 每小时运行一次
+  push:
+    branches:
+      - main  # 或者其他你想要触发的分支
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v3
+
+    - name: Get repository size
+      id: get_repo_size
+      run: |
+        repo_size=$(curl -s https://api.github.com/repos/zjx-kimi/PPTs-in-OI | jq '.size')
+        repo_size_mb=$(echo "scale=2; $repo_size/1024" | bc)
+        echo "::set-output name=size::$repo_size_mb MB"
+
+    - name: Update README.md
+      run: |
+        sed -i "s/<!-- repo_size -->.*/<!-- repo_size --> ${{ steps.get_repo_size.outputs.size }}/" README.md
+
+    - name: Commit changes
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add README.md
+        git commit -m "Update repository size in README"
+        git push
