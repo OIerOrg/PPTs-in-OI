@@ -11,6 +11,7 @@ All PPTs&PDFs are sourced from the internet. If there is any infringement, pleas
 [JCSY 2024 Winter](JCSY%202024%20Winter) [JCSY 2024 Summer](JCSY%202024%20Summer)
 
 From Other Repositories: [Luogu 深入浅出](Luogu%20深入浅出) [ShareOI](ShareOI) [Trinkle23897](Trinkle23897) [胡泽聪](胡泽聪)
+
 Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/OI)
 
 ## Thanks 
