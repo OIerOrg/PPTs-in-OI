@@ -42,4 +42,6 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
 
 ## Repository Size
 
-The size of this repository is approximately **REPO_SIZE_MB_PLACEHOLDER MB**.
+<!--REPO-SIZE-START-->
+**Repository Size:** To be updated...
+<!--REPO-SIZE-END-->
