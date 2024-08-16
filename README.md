@@ -42,6 +42,4 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
 
 ## Repository Size
 
-<!--REPO-SIZE-START-->
-**Repository Size:** 989MB
-<!--REPO-SIZE-END-->
+Repository Size: **0.00 MB**
