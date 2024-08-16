@@ -40,5 +40,6 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
  </picture>
 
 
+## Repository Size
 
-当前仓库大小：[X] MB
+The size of this repository is approximately **REPO_SIZE_MB_PLACEHOLDER MB**.
