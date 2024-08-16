@@ -41,4 +41,4 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
 
 
 
-当前仓库大小：257.51 MB
+当前仓库大小：[X] MB
