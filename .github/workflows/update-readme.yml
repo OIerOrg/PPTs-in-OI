@@ -1,9 +1,11 @@
-name: Update README with Repository Size
+name: Update README with Repo Size
 
 on:
+  push:
+    branches:
+      - master
   schedule:
-    - cron: '* * * * *'  # 每周日运行一次
-  workflow_dispatch:  # 允许手动触发工作流
+    - cron: '* * * * *'  # 每周更新一次
 
 jobs:
   update-readme:
@@ -13,27 +15,22 @@ jobs:
     - name: Checkout Repository
       uses: actions/checkout@v3
 
-    - name: Get Repository Size
-      id: get_size
+    - name: Get Repo Size
+      id: repo_size
       run: |
-        size_kb=$(curl -s https://api.github.com/repos/zjx-kimi/PPTs-in-OI | jq '.size')
-        size_mb=$(echo "scale=2; $size_kb/1024" | bc)
-        echo "size_mb=${size_mb}" >> $GITHUB_ENV
+        size=$(du -sh . | cut -f1)
+        echo "::set-output name=size::$size"
 
-    - name: Update README.md with Size
+    - name: Update README
       run: |
-        sed -i "s/REPO_SIZE_MB_PLACEHOLDER/${{ env.size_mb }}/" README.md
+        python update_readme.py "${{ steps.repo_size.outputs.size }}"
 
-    - name: Restore Placeholder in README.md
+    - name: Commit and Push changes
       run: |
-        sed -i "s/${{ env.size_mb }}/REPO_SIZE_MB_PLACEHOLDER/" README.md
-
-    - name: Commit和Push Changes
-      run: |
-        git config --local user.name "GitHub Actions"
         git config --local user.email "actions@github.com"
+        git config --local user.name "GitHub Actions"
         git add README.md
-        git commit -m "Update README with repository size"
+        git commit -m "Auto update README with repo size [skip ci]"
         git push
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
