@@ -22,6 +22,7 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
 
 <!-- readme: collaborators,contributors -start -->
 
+[![](https://contrib.rocks/image?repo=zjx-kimi/PPTs-in-OI)](https://github.com/zjx-kimi/PPTs-in-OI/graphs/contributors)
 <!-- readme: collaborators,contributors -end -->
 
 ## Stargazers
