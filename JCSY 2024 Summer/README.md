@@ -7,7 +7,7 @@
 - [网络流选讲.pdf](网络流选讲.pdf)
 - [网络流.pdf](网络流.pdf) [](https://www.luogu.com.cn/training/572748)
 - [博弈论.pdf](博弈论.pdf) [](https://www.luogu.com.cn/training/572681)
-- [计数.pdf](计数.pdf) && [](https://www.luogu.com.cn/training/571747)
+- [计数.pdf](计数.pdf) [](https://www.luogu.com.cn/training/571747)
 - [线段树.pdf](线段树.pdf) [](https://www.luogu.com.cn/training/574049)
 - [线段树题目.pdf](线段树题目.pdf)
 - [分块.pptx](分块.pptx)
