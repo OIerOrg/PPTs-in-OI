@@ -1,7 +1,7 @@
 ## [PPTs in OI](https://github.com/zjx-kimi/PPTs-in-OI/)
 
 [![Page Views Count](https://badges.toozhao.com/badges/01J4B8QBE2VTNQ82K66N017CNH/green.svg)](https://badges.toozhao.com/stats/01J4B8QBE2VTNQ82K66N017CNH)
-
+![](https://wakatime.com/badge/github/zjx-kimi/PPTs-in-OI.svg)
 You can also contribute some PPTs/PDFs to this repository.
 
 All PPTs&PDFs are sourced from the internet. If there is any infringement, please contact [me](mailto:1345098180@qq.com) Delete.
