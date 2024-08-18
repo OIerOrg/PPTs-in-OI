@@ -12,4 +12,4 @@
 - [线段树题目.pdf](线段树题目.pdf)
 - [分块.pptx](分块.pptx)
 - [图论.pdf](图论.pdf)
-- [字符串.pdf](2024s_xmr_string.pdf)
+- [字符串.pdf](字符串.pdf)
