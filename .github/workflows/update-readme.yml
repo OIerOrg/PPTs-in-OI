@@ -5,7 +5,7 @@ on:
     branches:
       - master  # 你可以根据需要指定分支
   schedule:
-    - cron: '*/1 * * * *'  # 每1分钟触发一次工作流
+    - cron: '* * * * *'  # 每1分钟触发一次工作流
   workflow_dispatch:  # 允许手动触发
 
 jobs:
@@ -32,7 +32,7 @@ jobs:
       - name: Pull latest changes from the remote repository
         run: git pull --rebase origin master
 
-      - name: Commit changes
+      - name: 提交更改
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
