@@ -1,9 +1,12 @@
 name: Update README with Repo Size
 
 on:
+  push:  # 每次推送到仓库时触发工作流
+    branches:
+      - master  # 你可以根据需要指定分支
   schedule:
-    - cron: '* * * * *'  # 每天 UTC 时间 00:00 触发
-  workflow_dispatch:  # 手动触发
+    - cron: '* * * * *'  # 每1分钟触发一次工作流
+  workflow_dispatch:  # 允许手动触发
 
 jobs:
   update-readme:
@@ -26,10 +29,13 @@ jobs:
       - name: Run Python script to update README
         run: python update_readme.py
 
-      - name: Commit changes
+      - name: Pull latest changes from the remote repository
+        run: git pull --rebase origin master
+
+      - name: 提交更改
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
           git add README.md
-          git commit -m "Update README with latest repo size"
+          git commit -m "Update README with latest repo size [skip ci]"
           git push
