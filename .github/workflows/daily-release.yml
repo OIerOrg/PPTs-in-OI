@@ -2,8 +2,8 @@ name: Daily Release
 
 on:
   schedule:
-    - cron: '0 0 * * *' # Runs daily at midnight UTC
-  workflow_dispatch: # Allows manual triggering
+    - cron: '0 0 * * *' # 每天0点自动运行
+  workflow_dispatch: # 允许手动触发
 
 jobs:
   release:
@@ -16,7 +16,11 @@ jobs:
       - name: Create a Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ github.run_date }}
-          release_name: ${{ github.run_date }}
+          tag_name: ${{ steps.date.outputs.today }}
+          name: ${{ steps.date.outputs.today }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Get Date
+        id: date
+        run: echo "::set-output name=today::$(date +'%Y%m%d')"
