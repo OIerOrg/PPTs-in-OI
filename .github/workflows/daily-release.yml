@@ -2,7 +2,7 @@ name: Daily Release
 
 on:
   schedule:
-    - cron: '0 0 * * *' # 每天0点自动运行
+    - cron: '0 0 * * *' # 每天运行
   workflow_dispatch: # 允许手动触发
 
 jobs:
@@ -13,6 +13,15 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v2
 
+      - name: Get Date
+        id: date
+        run: echo "::set-output name=today::$(date +'%Y%m%d')"
+
+      - name: Create Tag
+        run: |
+          git tag ${{ steps.date.outputs.today }}
+          git push origin ${{ steps.date.outputs.today }}
+
       - name: Create a Release
         uses: softprops/action-gh-release@v1
         with:
@@ -20,7 +29,3 @@ jobs:
           name: ${{ steps.date.outputs.today }}
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Get Date
-        id: date
-        run: echo "::set-output name=today::$(date +'%Y%m%d')"
