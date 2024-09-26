@@ -1,0 +1,21 @@
+name: Daily Release
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v2
+
+      - name: Create a Release
+        uses: softprops/action-gh-release@v1
+        with:
+          tag_name: ${{ github.run_date }}
+          release_name: ${{ github.run_date }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
