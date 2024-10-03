@@ -1,7 +1,7 @@
 ## [PPTs in OI](https://github.com/zjx-kimi/PPTs-in-OI/)
 
 [![Page Views Count](https://badges.toozhao.com/badges/01J4B8QBE2VTNQ82K66N017CNH/green.svg)](https://badges.toozhao.com/stats/01J4B8QBE2VTNQ82K66N017CNH)
-![](https://wakatime.com/badge/github/zjx-kimi/PPTs-in-OI.svg)
+![](https://wakatime.com/badge/github/zjx-kimi/PPTs-in-OI.svg) ![](https://img.shields.io/github/repo-size/OIerOrg/PPTs-in-OI?style=flat&logo=github&logoColor=whitesmoke&label=Repo%20Size)
 
 You can also contribute some PPTs/PDFs to this repository.
 
@@ -41,8 +41,3 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI" />
  </picture>
-
-
-## Repository Size
-
-Repository Size: **422.76 MB**
