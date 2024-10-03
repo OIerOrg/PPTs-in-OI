@@ -21,7 +21,7 @@ jobs:
           git tag ${{ env.today }}
           git push origin ${{ env.today }}
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用个人访问令牌
+          GITHUB_TOKEN: ${{ secrets.G_TOKEN }}  # 使用个人访问令牌
 
       - name: Create a Release
         uses: softprops/action-gh-release@v1
