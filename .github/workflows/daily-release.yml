@@ -28,4 +28,4 @@ jobs:
           tag_name: ${{ steps.date.outputs.today }}
           name: ${{ steps.date.outputs.today }}
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.G_TOKEN }}
