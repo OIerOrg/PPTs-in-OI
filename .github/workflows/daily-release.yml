@@ -12,6 +12,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0  # 确保获取完整的 git 历史
 
       - name: Get Date
         run: echo "today=$(date +'%Y%m%d')" >> $GITHUB_ENV
@@ -21,7 +23,7 @@ jobs:
           git tag ${{ env.today }}
           git push origin ${{ env.today }}
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_PAT }}  # 使用个人访问令牌
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用内置的 GITHUB_TOKEN
 
       - name: Create a Release
         uses: softprops/action-gh-release@v1
@@ -29,4 +31,4 @@ jobs:
           tag_name: ${{ env.today }}  # 使用创建的标签
           name: Release ${{ env.today }}  # 发布的名称
         env:
-          GITHUB_TOKEN: ${{ secrets.MY_PAT }}  # 使用个人访问令牌
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # 使用内置的 GITHUB_TOKEN
