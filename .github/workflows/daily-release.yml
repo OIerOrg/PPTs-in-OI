@@ -11,21 +11,22 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Get Date
-        id: date
-        run: echo "::set-output name=today::$(date +'%Y%m%d')"
+        run: echo "today=$(date +'%Y%m%d')" >> $GITHUB_ENV
 
       - name: Create Tag
         run: |
-          git tag ${{ steps.date.outputs.today }}
-          git push origin ${{ steps.date.outputs.today }}
+          git tag ${{ env.today }}
+          git push origin ${{ env.today }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.MY_GITHUB_TOKEN }}  # 使用个人访问令牌
 
       - name: Create a Release
         uses: softprops/action-gh-release@v1
         with:
-          tag_name: ${{ steps.date.outputs.today }}
-          name: ${{ steps.date.outputs.today }}
+          tag_name: ${{ env.today }}  # 使用创建的标签
+          name: Release ${{ env.today }}  # 发布的名称
         env:
-          GITHUB_TOKEN: ${{ secrets.G_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.G_TOKEN }}  # 使用个人访问令牌
