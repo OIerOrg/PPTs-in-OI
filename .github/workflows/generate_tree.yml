@@ -1,0 +1,53 @@
+name: Generate Directory Tree
+
+# 触发条件，可以根据需要修改
+on:
+  push:
+    branches:
+      - main  # 或您的默认分支名称
+  schedule:
+    - cron: '0 0 * * SUN'  # 每周日 UTC 时间 00:00 运行一次（可选）
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      # 检出仓库代码
+      - name: Checkout repository
+        uses: actions/checkout@v3
+        with:
+          persist-credentials: false  # 避免泄露 GitHub Token
+          fetch-depth: 0  # 确保完整历史
+
+      # 设置 Python 环境
+      - name: Set up Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'  # 您需要的 Python 版本
+
+      # 安装依赖（如果有）
+      # 如果脚本依赖于第三方库，请取消注释并添加
+      # - name: Install dependencies
+      #   run: |
+      #     python -m pip install --upgrade pip
+      #     pip install <your-dependencies>
+
+      # 运行生成脚本
+      - name: Run generate_tree.py
+        run: |
+          python generate_tree.py
+
+      # 配置 Git 用户信息
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+      # 提交并推送更改
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "自动更新 tree.md [skip ci]"
+          branch: main  # 或您的默认分支名称
+          file_pattern: tree.md

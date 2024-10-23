@@ -7,13 +7,7 @@ You can also contribute some PPTs/PDFs to this repository.
 
 All PPTs&PDFs are sourced from the internet. If there is any infringement, please contact [me](mailto:1345098180@qq.com) Delete.
 
-[JCSY 2023 Summer](JCSY%202023%20Summer)
-
-[JCSY 2024 Winter](JCSY%202024%20Winter) [JCSY 2024 Summer](JCSY%202024%20Summer)
-
-From Other Repositories: [Luogu 深入浅出](Luogu%20深入浅出) [ShareOI](ShareOI) [Trinkle23897](Trinkle23897) [胡泽聪](胡泽聪)
-
-Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/OI)
+[Here](tree) are the tree of the repo.
 
 ## Thanks 
 - All PPTS / PDFS owners
@@ -21,10 +15,7 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
 - @zhouyuxuan1013 Provide training.
 - And
 
-<!-- readme: collaborators,contributors -start -->
-
 [![](https://contrib.rocks/image?repo=zjx-kimi/PPTs-in-OI)](https://github.com/zjx-kimi/PPTs-in-OI/graphs/contributors)
-<!-- readme: collaborators,contributors -end -->
 
 ## Stargazers
 
@@ -36,8 +27,8 @@ Some problems in trainings have solutions in [this](https://github.com/zjx-kimi/
 
 ## Star History
 
- <picture>
+<picture>
    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI&theme=dark" />
    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI" />
    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=zjx-kimi/PPTs-in-OI" />
- </picture>
+</picture>
