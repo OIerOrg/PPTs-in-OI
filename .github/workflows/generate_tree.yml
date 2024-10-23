@@ -49,5 +49,5 @@ jobs:
         uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "自动更新 tree.md [skip ci]"
-          branch: main  # 或您的默认分支名称
+          branch: master  # 或您的默认分支名称
           file_pattern: tree.md
