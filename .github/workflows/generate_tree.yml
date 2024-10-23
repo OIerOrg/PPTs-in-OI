@@ -4,7 +4,7 @@ name: Generate Directory Tree
 on:
   push:
     branches:
-      - main  # 或您的默认分支名称
+      - master  # 或您的默认分支名称
   schedule:
     - cron: '0 0 * * SUN'  # 每周日 UTC 时间 00:00 运行一次（可选）
 
